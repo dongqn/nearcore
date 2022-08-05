@@ -1,1 +1,12 @@
-[HEADING=2][CENTER][B]Hướng dẫn tham gia Stake Wars III trên NEAR[/B][/CENTER][/HEADING]
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
