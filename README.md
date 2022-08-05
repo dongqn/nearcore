@@ -41,3 +41,8 @@ Login vào VPS, check nếu CPU hỗ trợ AVX qua câu lệnh
          || echo "Not supported"
 
 
+Check CPU support AVX
+Hiện Supported tức là VPS hỗ trợ AVX, nếu không thì bạn cần đăng ký bên nhà cung cấp khác!
+
+# Cập nhật máy chủ
+    sudo apt update && sudo apt upgrade -y
