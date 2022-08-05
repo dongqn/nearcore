@@ -1,1 +1,1 @@
-[CENTER]<b><h10>Hướng dẫn tham gia Stake Wars III trên NEAR</h10></b>[/CENTER]
+<CENTER><b><h20>Hướng dẫn tham gia Stake Wars III trên NEAR</h20></b></CENTER>
