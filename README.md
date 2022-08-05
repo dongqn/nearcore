@@ -80,8 +80,22 @@ Nhập 1 và Enter
     git clone https://github.com/near/nearcore
     cd nearcore
     git fetch
-### Kiểm tra cam kết cần thiết. 
+# Kiểm tra cam kết cần thiết. 
 Vui lòng tham khảo cam kết được xác định trong https://github.com/near/stakewars-iii/blob/main/commit.md
+    git checkout <commit>
+    
+# Biên dịch nearcore
+        cargo build -p neard --release --features shardnet
+    
+# Khởi tạo thư mục làm việc
+        ./target/release/neard --home ~ / .near init --chain-id shardnet --download-genesis
+    
+# Cài đặt AWS CLI
+        sudo apt-get install awscli -y
+### Chạy nút
+        cd ~/nearcore
+        ./target/release/neard --home ~/.near run
+
 
 
 
