@@ -46,3 +46,4 @@ Hiện Supported tức là VPS hỗ trợ AVX, nếu không thì bạn cần đ�
 
 # Cập nhật máy chủ
     sudo apt update && sudo apt upgrade -y
+
