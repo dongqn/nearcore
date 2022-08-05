@@ -37,7 +37,7 @@ Truy cập link: https://wallet.shardnet.near.org/
 Login vào VPS, check nếu CPU hỗ trợ AVX qua câu lệnh
 
     lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
-  && echo "Supported" \
-  || echo "Not supported"
+         && echo "Supported" \
+         || echo "Not supported"
 
 
