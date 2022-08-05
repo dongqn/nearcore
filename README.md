@@ -51,4 +51,21 @@ Hiện Supported tức là VPS hỗ trợ AVX, nếu không thì bạn cần đ�
     sudo apt install build-essential nodejs
     PATH="$PATH"
  
- 
+# Cài đặt NEAR CLI
+    sudo npm install -g near-cli
+# Tạo môi trường Shardnet
+    export NEAR_ENV=shardnet
+    echo 'export NEAR_ENV = shardnet' >> ~ / .bashrc
+    echo 'export NEAR_ENV=shardnet' >> ~/.bashrc
+    source $HOME/.bash_profile
+    
+# Tiếp theo, cài đặt các công cụ dành cho nhà phát triển
+    sudo apt install -y git binutils-dev libcurl4-openssl-dev zlib1g-dev libdw-dev libiberty-dev cmake gcc g++ python docker.io protobuf-compiler libssl-dev pkg-config clang llvm cargo
+
+# Tiếp theo cài đặt pip Python
+    sudo apt install python3-pip
+# Tiếp theo Đặt cấu hình
+    USER_BASE_BIN=$(python3 -m site --user-base)/bin
+    export PATH="$USER_BASE_BIN:$PATH"
+
+
