@@ -1,18 +1,21 @@
 # Hướng dẫn tham gia Stake Wars III trên NEAR
 
-    # Stake Wars 3 là gì?
-
-    Stake Wars giúp NEAR phi tập trung hơn, nâng số lượng active validator từ 100 lên 300, 400, giảm rào cản phần cứng làm validator xuống, qua đó làm mạng lưới phi tập trung và an toàn hơn!
-
+# Stake Wars 3 là gì?
+Stake Wars giúp NEAR phi tập trung hơn, nâng số lượng active validator từ 100 lên 300, 400, giảm rào cản phần cứng làm validator xuống, qua đó làm mạng lưới phi tập trung và an toàn hơn!
 Tham gia Stakewars 3, trở thành chunk-only producers, bạn sẽ có cơ hội nhận incentive với hơn 4 triệu token NEAR làm phần thưởng stake cho những validator tham gia hoàn thành thử thách, mỗi validator sẽ được NEAR stake tối đa 50 nghìn NEAR vào trong vòng ít nhất 1 năm!
 
+# Cấu hình node tham gia Stake Wars khá nhẹ:
 
-Cấu hình node tham gia Stake Wars khá nhẹ:
+    Hardware: Chunk-Only Producer Specifications
+    CPU: 4-Core CPU with AVX support
+    RAM: 8GB DDR4
+    Storage: 500GB SSD
+    
+bạn có thể thuê ở bất kỳ nhà cung cấp nào, ví dụ như Contabo / Vultr / Amazon Service hay Google Cloud …
+Đối với Contabo thì gói 6.99$ là vừa đủ, nhưng để tối ưu nhất hãy chọn gói 11.99$, đăng ký tại: https://contabo.com/en/vps/ 
+Chi phí sử thuê VPS sẽ vào khoảng 15$ -> 40$ tùy nhà cung cấp, bạn cần có thẻ thanh toán để đăng ký, ngoài ra bạn có thể sử dụng các dịch vụ VPS tại Việt Nam, một số nhà cung cấp như ViettelCloud / FPT …
 
-Hardware: Chunk-Only Producer Specifications
-CPU: 4-Core CPU with AVX support
-RAM: 8GB DDR4
-Storage: 500GB SSD
+![1](https://user-images.githubusercontent.com/36226384/183003699-8a6405c5-e782-4ed2-9aed-64703c7181a8.png)
 
 
 # Yiimp_install_scrypt (update Feb 4, 2018)
