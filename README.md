@@ -17,6 +17,17 @@ Chi phí sử thuê VPS sẽ vào khoảng 15$ -> 40$ tùy nhà cung cấp, bạ
 
 ![1](https://user-images.githubusercontent.com/36226384/183003699-8a6405c5-e782-4ed2-9aed-64703c7181a8.png)
 
+Hệ điều hành yêu cầu là Ubuntu, toàn bộ hướng dẫn này sẽ chạy trên Ubuntu!
+
+![2](https://user-images.githubusercontent.com/36226384/183067247-275dd87f-1c9c-4953-ba34-1a76e1149714.png)
+
+Quá trình đăng ký rất dễ dàng, sau khi đăng ký bạn hãy lưu lại password login vào vps của mình và địa chỉ IP được cung cấp.
+
+Sau khi có thông tin login, bạn cần sử dụng SSH để login vào máy chủ, nếu sử dụng Windows thì có thể dùng Putty, còn Mac hoặc Linux thì ssh đã có sẵn trong Terminal.
+
+
+
+
 
 # Yiimp_install_scrypt (update Feb 4, 2018)
 
