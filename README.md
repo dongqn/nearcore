@@ -46,4 +46,9 @@ Hiện Supported tức là VPS hỗ trợ AVX, nếu không thì bạn cần đ�
 
 # Cập nhật máy chủ
     sudo apt update && sudo apt upgrade -y
-
+# Cài đặt các công cụ dành cho nhà phát triển, Node.js và npm
+    curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -  
+    sudo apt install build-essential nodejs
+    PATH="$PATH"
+ 
+ 
