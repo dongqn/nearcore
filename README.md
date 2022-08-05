@@ -1,5 +1,4 @@
-<CENTER><b><h20>Hướng dẫn tham gia Stake Wars III trên NEAR</h20></b></CENTER>
-
+<b><h20>Hướng dẫn tham gia Stake Wars III trên NEAR</h20></b>
 
 <b><h20>Stake Wars 3 là gì?</h20></b>
 
