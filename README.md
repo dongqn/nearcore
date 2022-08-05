@@ -67,5 +67,21 @@ Hiện Supported tức là VPS hỗ trợ AVX, nếu không thì bạn cần đ�
 # Tiếp theo Đặt cấu hình
     USER_BASE_BIN=$(python3 -m site --user-base)/bin
     export PATH="$USER_BASE_BIN:$PATH"
+    
+# Cài đặt env
+    sudo apt install clang build-essential make
+# Cài đặt Rush & Cargo
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+![20](https://user-images.githubusercontent.com/36226384/183126818-c3de9c95-bdfa-4233-9fad-5746444a8b9a.JPG)
+Nhập 1 và Enter
+# Nguồn môi trường
+    source $HOME/.cargo/env
+# Sao chép dự án nearcore từ GitHub
+    git clone https://github.com/near/nearcore
+    cd nearcore
+    git fetch
+### Kiểm tra cam kết cần thiết. 
+Vui lòng tham khảo cam kết được xác định trong https://github.com/near/stakewars-iii/blob/main/commit.md
+
 
 
